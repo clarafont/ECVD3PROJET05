@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blueprint: On Scroll Effect Layout</title>
+		<meta name="description" content="Blueprint: On Scroll Effect Layout" />
+		<meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<script src="https://use.typekit.net/ydh2pfq.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	</head>
+	<body background="images/fond.jpg">
+		<div class="container">
+			<header class="clearfix">
+				<span>Blueprint <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+				<h1>On Scroll Effect Layout</h1>
+				<nav>
+					<a href="http://tympanus.net/Blueprints/ResponsiveIconGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+					<a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
+					<a href="http://tympanus.net/codrops/?p=15962" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+					<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+				</nav>
+			</header>
+			<div id="cbp-so-scroller" class="cbp-so-scroller">
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Quel est le café qui vous correspond?</h2>
+						<p>Il existe plus de 60 espèces différentes de caféiers dans le monde. Mais seules deux sont exploitées : l'Arabica et le Canephora (dont la variété la plus connue est le Robusta). Le choix de la variété de café dépend du goût de chacun. Certains le préfèrent léger et doux tandis que d'autres ne le boivent qu'amer et fort. De manière générale, sachez que les Arabicas sont plus doux et parfumés que les Canephoras, qui sont plus noirs et plus corsés. De plus, le Robusta contient environ deux fois plus de café que l'Arabica.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/cafe-04.svg" alt="cafe">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/tasse.svg" alt="tasse">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Quelle tasse choisir ?</h2>
+						<p>Tasse épaisse pour garder la chaleur, buvant agréable et fond ovoïde. Ce dernier point est important pour bien optimiser la qualité de la mousse du café.
+</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Quelle machine choisir ?</h2>
+						<p>Une machine professionnelle doit offrir une triple stabilité : thermique, de pression et par rapport au volume d’eau envoyé. En fonction des besoins et des moyens, il existe un large panel de type de machines : chaudières multiples, avec mélangeur, thermostat, matière (tout inox ou pas), système de filtration d’eau, etc.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/machine-05.svg" alt="machine">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/horloges.svg" alt="horloges">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>A quel moment boire son café?</h2>
+						<p>Selon un chercheur en neuroscience, l'heure idéale pour prendre un café le matin est entre 9H30 à 11H30. C'est entre ces deux heures que la caféine a le maximum d'effet.
+</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Un extra dans le café ?</h2>
+						<p>Il est très facile de remplacer le sucre que l’on ajoute par des alternatives encore plus gourmandes qui donneront une autre dimension à votre pause café. Un café canadien avec du sirop d’érable, un café vanillé, un café saveur chocolat, une touche de miel, des cafés très très gourmands au Nutella
+, ect...</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/extra-06.svg" alt="extra">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Comment déguster son café?</h2>
+						<p>Il faut remuer le café pour avoir un mélange homogène car il y a un phénomène de stratification aromatique. Certains baristas tapent la tasse pour favoriser l’homogénéisation. Pour les amoureux de la crème, on peut commencer à boire le café pour profiter de toute la concentration aromatique de la crème, et ensuite remuer.
+</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpScroller.js"></script>
+		<script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
+	</body>
+</html>
