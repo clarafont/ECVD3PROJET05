@@ -19,25 +19,50 @@
 }
 
 /* Text styling */
+
 .cbp-so-section h2 {
-	font-family: "voltage";
-	font-size: 5em;
+font-family: 'Pacifico', cursive;
+	font-size: 3em;
 	font-weight: 300;
-	line-height: 1;
+	line-height: 64px;
+	color: #56abdb;
 }
 
 .cbp-so-section p {
-	  font-family: "acier-bat-gris";
-	font-size: 2em;
+font-family: 'Abel', sans-serif;
+	font-size: 27px;
 	font-weight: 300;
 }
 
+.footer p {
+	font-family: 'Abel', sans-serif;
+		font-size: 27px;
+		font-weight: 300;
+
+}
+
+.footer h3 {
+	font-family: 'Pacifico', cursive;
+		font-size: 3em;
+		font-weight: 300;
+		line-height: 64px;
+		color: #56abdb;
+		text-align: center;
+}
+.footer {
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 200px;
+	padding-top: 100px;
+	text-align: justify;
+
+}
 /* Sides */
 .cbp-so-side {
 	width: 50%;
 	float: left;
 	margin: 0;
-	padding: 3em 4%;
+	padding: 20px;
 	overflow: hidden;
 	min-height: 12em;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
@@ -68,6 +93,13 @@
 	float: left;
 }
 
+.fin {
+/*	padding-top: 75px;
+	width: 1130px;
+	padding-left: 375px;
+	padding-bottom: 10px;
+	text-align: center; */
+}
 .cbp-so-side-left img {
 	float: right;
 }
